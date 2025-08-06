@@ -62,6 +62,8 @@ A comprehensive glossary of terms used throughout the NeuroScope mechanistic int
 
 **Distributed Analysis** - The capability to spread analysis computations across multiple processes or workers for performance.
 
+**Dropout** - A regularization technique that randomly sets a fraction of input units to zero during training to prevent overfitting. During inference, dropout is typically disabled, but some implementations may still apply it, contributing to non-deterministic outputs even with identical inputs.
+
 ## E
 
 **EmbeddingLayer** - The transformer layer that converts token IDs into dense vector representations and adds positional information.
