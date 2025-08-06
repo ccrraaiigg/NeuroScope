@@ -1046,8 +1046,8 @@ testBasicFunctionality value.
 ```
 
 This comprehensive set of examples demonstrates the key patterns for using NeuroScope effectively, with proper error handling, performance optimization, and debugging techniques. These examples serve as both documentation and practical templates for common interpretability workflows.
-## Advanc
-ed Analysis Workflows
+
+## Advanced Analysis Workflows
 
 ### Circuit Discovery
 

@@ -126,13 +126,13 @@ The class provides comprehensive error handling for common failure modes:
 
 ## Browser Integration
 
-When running in SqueakJS, TransformerModel leverages browser-specific optimizations:
+Via SqueakJS, TransformerModel leverages browser-specific optimizations:
 - WebGL acceleration for tensor operations
 - Web Workers for background processing
 - IndexedDB for persistent activation caching
 - Canvas integration for real-time visualization
-## Met
-hod Documentation
+
+## Method Documentation
 
 ### Class Methods
 
