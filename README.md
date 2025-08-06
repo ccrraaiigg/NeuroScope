@@ -1,6 +1,6 @@
 # NeuroScope
 
-A mechanistic interpretability framework for transformer models, built in Smalltalk and designed to run in SqueakJS browsers. NeuroScope provides an interactive, object-oriented approach to understanding how transformer neural networks work internally.
+A mechanistic interpretability framework for transformer models, built in Smalltalk and designed to run in Catalyst browsers. NeuroScope provides an interactive, object-oriented approach to understanding how transformer neural networks work internally.
 
 ## 🚀 Key Features
 
@@ -97,7 +97,7 @@ lens openOn: 'The cat sat on the mat'.
 
 ### Core Platform
 - **Smalltalk** - Primary development language with live introspection
-- **SqueakJS** - Browser-based Smalltalk environment for zero-installation deployment
+- **Catalyst** - WASM GC Smalltalk virtual machine for zero-installation deployment
 - **JavaScript Bridge** - Direct integration with web ML libraries
 
 ### ML/Tensor Libraries

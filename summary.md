@@ -316,10 +316,10 @@ WorkerManager class>>processInBackground: computation
     ^ worker onMessage: [:result | result parseJSON]
 ```
 
-### SqueakJS-Specific Optimizations
+### Catalyst-Specific Optimizations
 
 ```smalltalk
-"Efficient data transfer between Squeak and JavaScript"
+"Efficient data transfer between Catalyst and JavaScript"
 DataBridge class>>transferTensor: tensor
     "Use typed arrays for efficient memory transfer"
     | jsArray |
@@ -360,7 +360,7 @@ RealtimeVisualizer>>updateDisplay: newData
 - **IndexedDB**: Structured storage for large activation tensors
 - **Blob URLs**: Efficient handling of tensor data in browser
 
-## Benefits of the SqueakJS Approach
+## Benefits of the Catalyst Approach
 
 1. **Zero Installation**: Run complex interpretability analysis directly in browser
 2. **Live Development**: Modify analysis code while experiments run, with instant browser updates
