@@ -1,6 +1,6 @@
 # NeuroScope
 
-A mechanistic interpretability framework for transformer models, inspired by [TransformerLens](https://github.com/TransformerLensOrg/TransformerLens), built in Smalltalk and designed to run in [Catalyst](https://github.com/ccrraaiigg/Catalyst) browsers. NeuroScope provides an interactive, object-oriented approach to understanding how transformer neural networks work internally.
+A mechanistic interpretability framework for transformer models, inspired by [TransformerLens](https://github.com/TransformerLensOrg/TransformerLens), built in Smalltalk and designed to run in browsers via [Catalyst](https://github.com/ccrraaiigg/Catalyst). NeuroScope provides an interactive, object-oriented approach to understanding how transformer neural networks work internally.
 
 ## 🚀 Key Features
 
